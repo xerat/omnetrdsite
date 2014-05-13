@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @lk.name %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @lk.content %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @lk.url %>
+</p>
+
+<%= link_to 'Edit', edit_lk_path(@lk) %> |
+<%= link_to 'Back', lks_path %>
